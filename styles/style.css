@@ -11,12 +11,12 @@
     padding: 200px 200px 300px 800px;
 }
 
-.header-title {
+.header-title{
     font-weight: 600;
     font-size: 50px;
 }
 
-.header-description {
+.header-description, .future-description{
     color: rgb(143, 150, 156);
     font-weight: 300px;
 }
@@ -76,10 +76,7 @@ img {
     text-align: center;
     
 }
-.plans .section-title {
-    
-   
-}
+
 
 .plans-list {
 
@@ -104,14 +101,44 @@ padding-left: 30px;
     ;
     padding: 50px 200px 250px 50px;
     background-repeat: no-repeat;
-    margin-left:230px;
-    width: 100%;
+    margin-left:200px;
+    
    
 }
 .watch .section-title{
     color: white;
 }
-.watch .btn-primary{
+.watch .btn-primary, .subscribe .btn-primary{
     background-color: white;
     color: orangered;
+    font-size: 18px;
+}
+
+/*fotter*/
+footer{
+    background-color: black;
+}
+
+.footer-part{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 50px 200px 100px;
+}
+.footer-part .section-title, .subscribe-title{
+color: white;
+}
+input{
+    padding: 20px 50px 15px 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.future-link{
+    display: flex;
+    gap: 17px;
+    list-style: none;
+    text-decoration: none;
+    
 }
