@@ -4,6 +4,7 @@
     display: flex;
     text-align: right;
     background-image: url(../images/banner/banner1.png);
+    width:100% ;
     background-repeat: no-repeat;
 }
 
@@ -20,22 +21,18 @@
     color: rgb(143, 150, 156);
     font-weight: 300px;
 }
-
+/*button*/
 .btn-primary {
     background-color: orangered;
     color: white;
     border: 0px;
     border-radius: 5px;
     font-weight: 350;
-   
     height: 60px;
     width: 150px;
 }
 
-main {
-   
 
-}
 
 /*failure topic*/
 img {
@@ -47,7 +44,7 @@ img {
     align-items: center;
     text-align: left;
     gap: 87pxs;
-    margin-top: 130px;
+   
 }
 
 .failure-topic {
@@ -135,10 +132,7 @@ input{
     border-radius: 8px;
     margin-bottom: 15px;
 }
-.future-link{
-    display: flex;
-    gap: 17px;
-    list-style: none;
-    text-decoration: none;
-    
+.link{
+  
+
 }
